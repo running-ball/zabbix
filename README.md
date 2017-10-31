@@ -5,8 +5,10 @@ zabbix grafana安装部署
 一、安装nginx：
 安装依赖包：
 yum -y install gcc gcc-c++ autoconf automake zlib zlib-devel openssl openssl-devel pcre* make gd-devel libjpeg-devel libpng-devel libxml2-devel bzip2-devel libcurl-devel libevent-devel
+
 创建用户：
 useradd nginx -s /sbin/nologin -M
+
 下载nginx软件包并进入到目录中：
 wget http://nginx.org/download/nginx-1.12.0.tar.gz && tar xvf nginx-1.12.0.tar.gz && cd nginx-1.12.0
  编译：
